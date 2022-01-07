@@ -8,6 +8,6 @@ job('my-dsl-job-1') {
         githubPush()
     }
     steps {
-        maven ('clean test package')
+        maven ('clean package')
     }
 }
